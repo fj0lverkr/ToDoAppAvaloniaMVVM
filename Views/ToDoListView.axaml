@@ -8,5 +8,9 @@
                 <Button DockPanel.Dock="Bottom" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center">
                     Add Item
                 </Button>
+                <StackPanel>
+                    <CheckBox Margin="4">Item 1</CheckBox>
+                    <CheckBox Margin="4">Item 2</CheckBox>
+                </StackPanel>
              </DockPanel>
 </UserControl>
