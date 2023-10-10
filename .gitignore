@@ -1,0 +1,7 @@
+bin/Debug/net6.0/
+obj/Debug/
+obj/ToDoApp.csproj.nuget.g.targets
+obj/ToDoApp.csproj.nuget.g.props
+obj/ToDoApp.csproj.nuget.dgspec.json
+obj/project.nuget.cache
+obj/project.assets.json
