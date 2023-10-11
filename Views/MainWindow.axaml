@@ -8,8 +8,6 @@
         x:Class="ToDoApp.Views.MainWindow"
         x:DataType="vm:MainWindowViewModel"
         Icon="/Assets/avalonia-logo.ico"
-        Title="Avalonia To Do App">
-
-    <views:ToDoListView DataContext="{Binding ToDoList}" />
-
+        Title="Avalonia To Do App"
+        Content="{Binding ContentViewModel}">
 </Window>
