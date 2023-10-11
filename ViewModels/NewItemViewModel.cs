@@ -6,7 +6,7 @@ using ToDoApp.DataModel;
 namespace ToDoApp.ViewModels {
     public class NewItemViewModel: ViewModelBase {
 
-        private string _description = String.Empty;
+        private string _description = string.Empty;
 
         public ReactiveCommand<Unit, ToDoItem> OkCommand { get; }
         public ReactiveCommand<Unit, Unit> CancelCommand { get; }
