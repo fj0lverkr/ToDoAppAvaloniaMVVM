@@ -7,8 +7,23 @@
              x:DataType="vm:NewItemViewModel"
              x:Class="ToDoApp.Views.NewItemView">
              <DockPanel>
-              <Button DockPanel.Dock="Bottom" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center">Cancel</Button>
-              <Button DockPanel.Dock="Bottom" HorizontalAlignment="Stretch" HorizontalContentAlignment="Center">OK</Button>
-              <TextBox AcceptsReturn="True" Text="{Binding Description}" Watermark="Add your new item" />
+                <Button
+                    DockPanel.Dock="Bottom"
+                    HorizontalAlignment="Stretch"
+                    HorizontalContentAlignment="Center"
+                    Command="{Binding CancelCommand}">
+                    Cancel
+                </Button>
+                <Button
+                    DockPanel.Dock="Bottom"
+                    HorizontalAlignment="Stretch"
+                    HorizontalContentAlignment="Center"
+                    Command="{Binding OkCommand}">
+                    OK
+                </Button>
+                <TextBox
+                    AcceptsReturn="True"
+                    Text="{Binding Description}"
+                    Watermark="Add your new item" />
              </DockPanel>
 </UserControl>
